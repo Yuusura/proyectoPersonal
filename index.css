@@ -1,0 +1,123 @@
+body {
+    padding: 0px;
+    margin: 0px ;
+    min-height: 100vh;
+    font-family: "Lato", sans-serif;
+    color: white;
+    background-image: url(./a4d5087e-9bd7-4aa1-81c2-5948f9937dfc.png);
+    background-size: cover;
+}
+
+body p {
+    font-size: 20px;
+}
+
+body h1 {
+    font-size: 40px;
+}
+
+.navegacionInterna {
+    display: flex;
+    justify-content: center;
+}
+
+.navegacionInterna ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boton:visited, .boton:hover {
+    color: white
+}
+
+section {
+    width: 40%;
+    padding: 8% 8% 1%;
+    font-size: 120%;
+
+}
+
+.colorNeon {
+    color: #5ebdff;
+
+    text-shadow:
+        0 0 8px rgba(94, 189, 255, 0.7),
+        0 0 18px rgba(0, 140, 255, 0.4);
+}
+
+.dosBotones {
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.dosBotones img {
+    width: 30px;
+    height: 30px;
+}
+
+.botonProyectos {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #5ebdff;
+    border-radius: 10px;
+    width: 200px;
+    padding: 20px 10px;
+}
+
+.botonContactar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width:200px
+}
+
+.navegacionExterna {
+    padding-left: 8%;
+}
+
+.navegacionExterna ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 0px;
+    padding-top: 20px;
+}
+
+.navegacionExterna img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    .dosBotones {
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        width: 80%;
+    }
+    .navegacionInterna ul {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+        .dosBotones {
+        display: flex;
+        flex-direction: column;
+    }
+}
