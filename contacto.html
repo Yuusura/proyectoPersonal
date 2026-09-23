@@ -1,11 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="contacto.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yousra | Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navegacionInterna">
+      <ul>
+        <li><a class="boton" href="./index.html">Inicio</a></li>
+        <li><a class="boton" href="./biografia.html">Sobre mí</a></li>
+        <li><a class="boton" href="./portfolio.html">Proyectos</a></li>
+        <li><a class="boton" href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <section>
+      <p>
+        ¿Tienes alguna pregunta o quieres ponerte en contacto conmigo?
+        <br />
+        <br />
+        <span class="colorNeon">¡Hablemos!</span> Puedes escribirme y responderé
+        lo antes posible.
+      </p>
+    </section>
+    <form class="formulario">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" type="text" />
+
+      <label for="telefono">Teléfono</label>
+      <input id="telefono" type="number" />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" />
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje"></textarea>
+
+      <input id="contactar" type="submit"></input>
+      
+    </form>
+  </body>
 </html>
